@@ -244,7 +244,7 @@ if __name__ == "__main__":
     parser.add_argument('--n_iters', type=int, default=10000)
     parser.add_argument('--min_lr', type=float, default=-6)
     parser.add_argument('--max_lr', type=float, default=1)
-    parser.add_argument('--n_lr', type=float, default=20)
+    parser.add_argument('--n_lr', type=int, default=20)
 
     parser.add_argument('--n_embeddings', type=int, default=50)
     parser.add_argument('--n_hiddens', type=int, default=50)
